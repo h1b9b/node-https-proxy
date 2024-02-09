@@ -1,0 +1,37 @@
+{
+  "name": "node-https-proxy",
+  "version": "1.0.0",
+  "description": "Minimal node proxy web server using https protocol.",
+  "keywords": [
+    "web",
+    "https",
+    "proxy",
+    "server",
+    "node"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "h1b9b <34774822+h1b9b@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h1b9b/node-https-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h1b9b/node-https-proxy/issues"
+  },
+  "homepage": "https://github.com/h1b9b/node-https-proxy",
+  "devDependencies": {
+    "@types/http-proxy": "^1.17.14",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
